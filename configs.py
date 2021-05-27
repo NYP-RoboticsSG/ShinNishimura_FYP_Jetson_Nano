@@ -1,0 +1,19 @@
+D1 = 50
+D2 = 800
+
+BATCH_SIZE = 8
+TTS        = 0.2
+SEED       = 42
+EPOCHS     = 35
+SHIFT      = 1
+STACKS     = 2
+INTERVAL   = 0.5
+
+LEARNING_RATE = 0.0001
+
+TENSORBOARD = True
+DELETE_LOGS = True
+
+LOADING_BAR_FOLD = 64
+
+MODEL_SAVE_DIR = 'models/model.tf'
