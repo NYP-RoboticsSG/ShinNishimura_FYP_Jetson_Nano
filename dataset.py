@@ -36,7 +36,6 @@ class Dataset(object):
         X_df = pd.DataFrame()
         y_df = df[['left', 'right']]
         y_df = y_df.rolling(window=SHIFT*2+1, min_periods=1, center=True).mean()
-        np.set_printoptions(threshold=np.inf)
 
         for n in range(STACKS):
             X_df[f'target_imdir_{n}'] = df['frame'] - INTERVAL*n
