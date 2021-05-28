@@ -9,7 +9,7 @@ import datetime
 import random
 
 class Dataset(object):
-    def __init__(self, label_file='data/save.txt',
+    def __init__(self, label_file=DATA_FILE,
                  batch_size=BATCH_SIZE, tts=TTS, seed=SEED):
         X, y = self.load_data(label_file, seed=seed)
 
