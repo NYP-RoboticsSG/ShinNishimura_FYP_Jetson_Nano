@@ -17,3 +17,9 @@ DELETE_LOGS = True
 LOADING_BAR_FOLD = 64
 
 MODEL_SAVE_DIR = 'models/model.tf'
+
+DATA_FILE = 'data/save.txt'
+
+# 'roll' or 'shuffle' or None
+SAMPLE_TYPE = 'shuffle'
+assert (SAMPLE_TYPE == 'roll') or (SAMPLE_TYPE == 'shuffle') or (SAMPLE_TYPE is None)
