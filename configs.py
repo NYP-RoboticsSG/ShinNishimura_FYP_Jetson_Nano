@@ -6,7 +6,7 @@ TTS        = 0.2
 SEED       = 42
 EPOCHS     = 35
 SHIFT      = 1
-STACKS     = 2
+STACKS     = 1
 INTERVAL   = 0.5
 
 LEARNING_RATE = 0.0001
@@ -16,7 +16,7 @@ DELETE_LOGS = True
 
 LOADING_BAR_FOLD = 64
 
-MODEL_SAVE_DIR = 'models/model.tf'
+MODEL_SAVE_DIR = 'model.tf'
 
 DATA_FILE = 'data/save.txt'
 
